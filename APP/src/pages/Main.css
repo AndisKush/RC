@@ -1,0 +1,32 @@
+.Main {
+  text-align: center;
+  background-color: black;
+  height: 90vh;
+  background-image: url('../images/logoop.png');
+  background-position: center;
+  background-size: cover;
+}
+
+
+.content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 90vh;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+.tdesqtabl {
+  width: 300px;
+  
+}
+
+.pagar text{
+  fill: darkgrey;
+}
+
+.receber text{
+  fill: darkgrey;
+}

@@ -1,0 +1,63 @@
+.ui-modal {
+    background-color: #000;
+    border-radius: 4px;
+    max-width: 800px;
+    margin: 80px auto 0 auto;
+    padding: 15px;
+    border: 1px solid maroon;
+}
+
+.ui-modal-extendido {
+    background-color: #000;
+    border-radius: 4px;
+    /* max-width: 1200px; */
+    max-width: 90%;
+    max-height: 500px;
+    margin: 80px auto 0 auto;
+    padding: 15px;
+    border: 1px solid maroon;
+}
+
+.ui-modal-data {
+    background-color: #000;
+    border-radius: 4px;
+    /* max-width: 1200px; */
+    max-width: 30%;
+    max-height: 500px;
+    margin: 80px auto 0 auto;
+    padding: 15px;
+    border: 1px solid maroon;
+}
+
+.ui-modal-reduzido {
+    background-color: #000;
+    border-radius: 4px;
+    /* max-width: 1200px; */
+    max-width: 30%;
+    max-height: 500px;
+  
+    margin: 80px auto 0 auto;
+    padding: 15px;
+    border: 1px solid maroon;
+}
+
+.ui-modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.ui-modal__close_button {
+    color: #fff;
+    float: right;
+    background: unset;
+    border: 1px solid maroon;
+}
+
+.ui-modal__close_button:hover {
+    background-color: maroon;
+    cursor: pointer;
+  }

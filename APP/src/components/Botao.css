@@ -1,0 +1,196 @@
+.button {
+    border: none;
+  }
+  
+  .buttonConfirm {
+    background-color: black; /* Green */
+    border: 2px solid maroon;
+    color: white;
+    /* padding: 12px 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    height: 20px;
+    padding: 12px 15px;
+    width: 80px;
+  }
+
+  .buttonConfirm:hover {
+    background-color: maroon;
+    cursor: pointer;
+  }
+
+  .buttonCancel {
+    background-color: lightgrey; /* Green */
+    
+    border: 2px solid white;
+    color: black;
+    /* padding: 12px 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    height: 20px;
+    padding: 12px 15px;
+    width: 80px;
+  }
+
+  .buttonCancel:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  
+  .buttonMenuFinanceiro {
+    background-color: black; /* Green */
+    
+    border: 2px solid white;
+    color: white;
+    /* padding: 12px 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 5%;
+    padding: 8px 8px;
+    width: 80px;
+  }
+
+  .buttonMenuFinanceiro:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .buttonMenuFinanceiroSelecionado {
+    background-color: gray; /* Green */
+    
+    border: 2px solid white;
+    color: white;
+    /* padding: 12px 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 5%;
+    padding: 8px 8px;
+    width: 80px;
+  }
+
+
+  .buttonBaixar {
+    background-color: black; /* Green */
+    opacity: 0.9;
+    border: 2px solid white;
+    color: white;
+    /* padding: 12px 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5%;
+    padding: 5px 5px;
+    width: 45px;
+  }
+
+  .buttonBaixar:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .buttonAdd {
+    background-color: black; /* Green */
+    border: 2px solid maroon;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    padding: 8px 12px;
+  }
+
+  .buttonAdd:hover {
+    background-color: maroon;
+    cursor: pointer;
+  }
+
+  .buttonAdd2 {
+    background-color: black; /* Green */
+    border: 2px solid maroon;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    padding: 1px 5px;
+  }
+
+  .buttonAdd2:hover {
+    background-color: maroon;
+    cursor: pointer;
+  }
+
+  .buttonRemove {
+    background-color: lightgrey; /* Green */
+    opacity: 0.9;
+    border: 2px solid white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+    padding: 8px 12px;
+  }
+
+  .buttonRemove:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .buttonRelatorios {
+    background-color: black; /* Green */
+    
+    border: 2px solid white;
+    color: white;
+    /* padding: 12px 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 5%;
+    padding: 8px 8px;
+  }
+
+  .buttonRelatorios:hover {
+    background-color: gray;
+    cursor: pointer;
+  }
+
+  .buttonRelatoriosSelecionado {
+    background-color: gray; /* Green */
+    
+    border: 2px solid white;
+    color: white;
+    /* padding: 12px 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 5%;
+    padding: 8px 8px;
+  }
+
+  .notification{
+    position: absolute;
+    text-align: center;
+    font-size: small;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 14%;
+  }

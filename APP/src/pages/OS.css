@@ -1,0 +1,211 @@
+.OS {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 87vh;
+    
+  }
+
+ 
+
+  .Conteudo {
+    height: 90vh;
+    background-color: black;
+  
+  }
+
+.esquerda{
+    width: 85%;
+    float: left;
+    background-color: black;
+    max-height: 70vh;
+    overflow: auto;
+  }
+
+.direita{
+    width: 15%;
+    float: right;
+    background-color: black;
+   
+  }
+
+  body {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color: maroon;
+    border-left: 2px double maroon;
+    border-right: 2px double maroon;
+
+  }
+  
+  thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: 1px;
+  }
+  
+  thead button.ascending::after {
+    content: '👇';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  thead button.descending::after {
+    content: '☝️';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+    border-left: 2px double maroon;
+    border-right: 2px double maroon;
+  }
+  
+  tbody tr:hover {
+    background-color: #4F4F4F;
+  }
+  
+
+  .tdnome {
+    text-align:left;
+    width: 60vh;
+    
+  }
+
+  .rodape {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid maroon;
+  }
+
+  .rodapeReceber {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid maroon;
+  }
+  
+  .rod1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 160vh;
+
+  }
+  .desconto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 105px;
+    
+  }
+
+  .rod2{
+  text-align: right;
+  margin-left: -100px;
+  margin-top: 10px;
+  }
+
+  .rod3{
+    position: relative;
+    text-align: right;    
+    margin-right: 13px;
+    margin-top: auto;
+  }
+  
+  .totalliquido{
+    width: 55vh;
+    background-color: #1C1C1C;
+    margin-left: 20px;
+  }
+  
+  .tabelacontainer {
+    margin-top: 10px;
+    text-align: center;
+    max-height: 70vh;
+    scroll-behavior: auto;
+    overflow: auto;
+  }
+
+  
+
+  .tabelaFinanceiro {
+    scroll-behavior: auto;
+    overflow: auto;
+  }
+
+  .addqtdproduto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+  }
+
+  .addqtdproduto2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+
+  }
+
+  .parcelas {
+    width: 60vh;
+    border-left: 1px solid maroon;
+    text-align: center;
+    max-height: 40vh;
+    overflow: auto;
+  }
+
+  .condpg {
+    background-color: black;
+    width: 40vh;
+  }
+
+
+  
+  .tdnegativo {
+    background-color: #B22222; 
+  }
+
+  .tdnomenegativo {
+    text-align:left;
+    background-color: #B22222; 
+  }
+
+  .tdestoqueminino {
+    background-color: #d4f34b;
+    color: black;
+    
+  }
+  .tdnomeestoqueminino {
+    text-align:left;
+    background-color: #d4f34b;
+    color: black;
+  }
+
+  .tabela {
+    
+    scroll-behavior: auto;
+    
+  }
+
+  .divTabelaProduto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }

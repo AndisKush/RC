@@ -1,0 +1,63 @@
+.NavBar {
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000;
+    height: 10vh;
+    color: #FFFFFF;
+    
+    
+  }
+
+
+#iconsNavBar{position:relative}
+
+#iconsNavBar:hover{ top:-2px;
+                    box-shadow:0 2px 2px #666;
+                    cursor: pointer;
+}
+
+
+.Links {
+  color: #FFFFFF;
+
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: relative;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.notificationnavbar{
+  position: absolute;
+  text-align: center;
+  font-size: small;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  width: 25%;
+  margin-top: -8vh;
+  margin-left: 1vh;
+}

@@ -1,0 +1,188 @@
+.Compras {
+    text-align: center;
+    background-color: black;
+    height: "90%";
+    
+  }
+
+  .Conteudo {
+    height: 100vh;
+    background-color: black;
+
+  }
+
+.esquerda{
+    width: 85%;
+    float: left;
+    background-color: black;
+    
+  }
+
+.direita{
+    width: 15%;
+    float: right;
+    background-color: black;
+  }
+
+  body {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color: maroon;
+    border-left: 2px double maroon;
+    border-right: 2px double maroon;
+
+  }
+  
+  thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: 1px;
+  }
+  
+  thead button.ascending::after {
+    content: '👇';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  thead button.descending::after {
+    content: '☝️';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+    border-left: 2px double maroon;
+    border-right: 2px double maroon;
+  }
+  
+  tbody tr:hover {
+    background-color: #4F4F4F;
+  }
+  
+
+  .tdnome {
+    text-align:left
+  }
+  .rodape {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid maroon;
+   
+
+  }
+  
+  .rod1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 160vh;
+
+  }
+  .desconto {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 105px;
+    
+  }
+
+  .rod2{
+  text-align: right;
+  margin-right: 13px;
+  margin-top: 10px;
+
+  }
+  
+  .tabelacontainer {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .tabela {
+    max-height: 200px;
+    scroll-behavior: auto;
+  }
+
+  .addqtdproduto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+  }
+
+  .addqtdproduto2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+
+  }
+
+  .parcelas {
+    width: 75vh;
+    border-left: 1px solid maroon;
+    text-align: center;
+  }
+
+  .condpg {
+    background-color: black;
+    width: 40vh;
+  }
+
+
+  
+  .tdnegativo {
+    background-color: #B22222; 
+  }
+
+  .tdnomenegativo {
+    text-align:left;
+    background-color: #B22222; 
+  }
+
+  .tdnegativo:hover{
+    background-color: #a31010; 
+  }
+
+  .tdnomenegativo:hover{
+    background-color: #a31010; 
+  }
+
+
+  .tdestoqueminino:hover {
+    background-color: #d4f34b; 
+  }
+
+  .tdnomeestoqueminino:hover {
+    background-color: #d4f34b; 
+  }
+
+  .tdestoqueminino {
+    background-color: #daf07b;
+    color: black;
+    
+  }
+  .tdnomeestoqueminino {
+    text-align:left;
+    background-color: #daf07b;
+    color: black;
+  }
+
+ 

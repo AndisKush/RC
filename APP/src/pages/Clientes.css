@@ -1,0 +1,120 @@
+.Clientes {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 87vh;
+  }
+
+.divTabela {
+  overflow: auto;
+  height: 70vh;
+}
+
+  .tabela {
+    scroll-behavior: auto;
+  }
+
+.Conteudo {
+    background-color: white;
+    max-height: 10px;
+  }
+
+.Direita {
+    width: 50%;
+    float: left;
+    background-color: black;
+    
+  }
+
+.Esquerda {
+    width: 50%;
+    float: right;
+    background-color: black;
+  }
+  
+  .formulario{
+    margin-left: 10vh;
+    text-align: left;
+
+  }
+
+
+  body {
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    color: white;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color: maroon;
+    border-left: 2px double maroon;
+    border-right: 2px double maroon;
+
+  }
+  
+  thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: 1px;
+  }
+  
+  thead button.ascending::after {
+    content: '👇';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  thead button.descending::after {
+    content: '☝️';
+    display: inline-block;
+    margin-left: 1em;
+  }
+  
+  tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+    border-left: 2px double maroon;
+    border-right: 2px double maroon;
+  }
+  
+  tbody tr:hover {
+    background-color: #4F4F4F;
+  }
+
+
+  .button {
+    border: none;
+  }
+  
+  .loader {
+    background-color: black; /* Green */
+    border: 2px solid maroon;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5%;
+  }
+
+  .loader:hover {
+    background-color: maroon;
+    cursor: pointer;
+  }
+  
+
+  .tdnome {
+    text-align:left
+  }

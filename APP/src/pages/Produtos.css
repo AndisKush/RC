@@ -1,0 +1,109 @@
+
+.Produtos {
+  text-align: center;
+  background-color: black;
+  margin-right: 5;
+  width: 100%;
+  height: 90vh;
+}
+
+ .divTabela {
+  height: 70vh;
+  overflow: auto;
+  margin-right: 5px;
+}
+
+  .tabela {
+    scroll-behavior: auto;
+  }
+
+  .divTabelaProdutosVinculados {
+   
+    max-height: 40vh;
+    overflow: auto;
+    margin-right: 5px;
+  }
+  
+    .tabelaProdutosVinculados {
+      scroll-behavior: auto;
+    }
+
+.Conteudo {
+  display:"grid"; 
+  grid-template-columns: repeat("2, 1fr");
+}
+
+.tdnegativo {
+  background-color: #ff7979; 
+}
+
+.tdnomenegativo {
+  text-align:left;
+  background-color: #ff7979; 
+}
+
+.tdestoqueminino {
+  background-color: #daf07b; 
+  color: black;
+  
+}
+.tdnomeestoqueminino {
+  text-align:left;
+  background-color:	#daf07b;
+  color: black;
+}
+
+
+.BotoesAdd {
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 10;
+  margin-right: 5;
+  height: 60px;
+  
+  
+}
+.headerAddServ{
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.DivAddProdutoVinculado{
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 30px;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+caption {
+  margin-bottom: 10px;
+}
+
+thead th {
+  text-align: center;
+  border-bottom: 2px solid black;
+  background-color: maroon;
+  border-left: 2px double maroon;
+  border-right: 2px double maroon;
+  font-size: 16px;
+}
+
+tbody {
+  text-align: center;
+}
+
+tbody td {
+  
+  border-bottom: 1px solid #ccc;
+  border-left: 2px double maroon;
+  border-right: 2px double maroon;
+  font-size: 14px;
+}
